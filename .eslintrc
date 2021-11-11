@@ -8,7 +8,9 @@
     "ecmaVersion": 2018
   },
   "rules": {
-    "react/jsx-props-no-spreading": ["off"],
+    "react/jsx-props-no-spreading": [
+      "off"
+    ],
     "no-confusing-arrow": [
       "error",
       {
@@ -18,7 +20,10 @@
     "react/jsx-filename-extension": [
       1,
       {
-        "extensions": [".js", ".jsx"]
+        "extensions": [
+          ".js",
+          ".jsx"
+        ]
       }
     ],
     "react/jsx-one-expression-per-line": 0,
@@ -40,7 +45,9 @@
       "error",
       {
         "props": true,
-        "ignorePropertyModificationsFor": ["config"]
+        "ignorePropertyModificationsFor": [
+          "config"
+        ]
       }
     ],
     "sort-imports": "off",
@@ -59,6 +66,13 @@
     "arrow-parens": "off",
     "object-curly-newline": "off"
   },
-  "plugins": ["react", "prettier", "react-hooks"],
-  "extends": ["airbnb", "prettier"]
+  "plugins": [
+    "react",
+    "prettier",
+    "react-hooks"
+  ],
+  "extends": [
+    "airbnb",
+    "prettier"
+  ]
 }
